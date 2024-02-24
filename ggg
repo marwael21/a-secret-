@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expressing Love</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f9eaf2; /* Light pink background color */
+        }
+        .card {
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .card-header {
+            background-color: #e91e63; /* Pink color */
+            color: #fff; /* White text */
+            border-bottom: none;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+        .card-body {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card mx-auto" style="max-width: 400px;">
+            <div class="card-header">
+                <h1>Dear [Name],</h1>
+            </div>
+            <div class="card-body">
+                <p>I just wanted to tell you that I love you with all my heart. You mean the world to me, and I am grateful to have you in my life.</p>
+                <p>Forever yours,</p>
+                <p>Your Name</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (for Bootstrap modal, tooltip, etc.) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
